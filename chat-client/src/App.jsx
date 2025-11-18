@@ -6,7 +6,7 @@ export default function App() {
     <div
       style={{ maxWidth: 900, margin: "20px auto", fontFamily: "sans-serif" }}
     >
-      <h2>React Chat (Demo)</h2>
+      <h2>Chat App </h2>
       <Outlet />
     </div>
   );
