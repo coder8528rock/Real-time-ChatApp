@@ -24,6 +24,7 @@ export default function ChatPage() {
       return;
     }
     setUserName(savedName || "Guest");
+    console.log("SOCKET_URL at runtime:", SOCKET_URL);
 
     const s = io(SOCKET_URL, { auth: { token } });
     setSocket(s);
